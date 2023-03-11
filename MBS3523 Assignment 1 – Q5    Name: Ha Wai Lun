@@ -1,0 +1,17 @@
+# MBS3523_AY202223
+import numpy as np
+import cv2 as cv
+def nothing(x);
+    print(x)
+    
+img  =np zeros(300,512,3),np unit8)
+cv.nameWindow('image')
+cv.createTrackbar('B','image',0,255,nothing)
+cv.createTrackbar('B','image',0,255,nothing)
+cv.createTrackbar('B','image',0,255,nothing)
+While(1)
+  cv.imshow('image',img)
+  K=cv.waitKey(1) & 0xFF
+  if K == 27;
+  break
+  cv.destroyALLWindows()
